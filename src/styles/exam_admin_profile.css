@@ -1,0 +1,201 @@
+/* Styles for the user details container */
+.user-details {
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f3f3;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  padding: 15px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  width: 600px;
+  transition: 0.3s;
+}
+
+/* Hover styles for the user details container */
+.user-details:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+}
+
+/* Styles for the span inside user details */
+.user-details span {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+/* Styles for the edit profile button */
+#editProf {
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+/* Hover styles for the edit profile button */
+#editProf:hover {
+  background-color: #666;
+}
+
+/* Styles for the heading */
+.heading{
+  text-align: center;
+  padding-top: 30px;
+  color:#181818;
+  text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  font-size: 40px;
+}
+
+/* Styles for the add exam button */
+.add-exam-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 30px 31px;
+  padding: 10px 25px;
+  background-color: orange;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover styles for the add exam button */
+.add-exam-btn:hover{
+  background-color: white;
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  font-size: 20px;
+}
+
+/* Styles for the exam table */
+.exam-table{
+  width: 90%;
+  margin: 100px auto;
+  margin-top: 30px;
+  background-color: #f3f3f3;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Hover styles for the exam table */
+.exam-table:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+}
+
+/* Styles for the result table */
+.result-table{
+  width: 60%;
+  margin: 100px auto;
+  margin-top: 30px;
+  background-color: #f3f3f3;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Hover styles for the result table */
+.result-table:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+}
+
+/* Styles for the common table styles */
+.table-style{
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #333; color: #fff;
+  text-rendering: optimizeLegibility;
+  border-radius: 5px; 
+}
+
+/* Styles for the table header row */
+.table-style thead tr th { 
+  font-weight: 600; 
+}
+
+/* Styles for the table header and body cells */
+.table-style thead th, .table-style tbody td { 
+  padding: 10px; font-size: 16px;
+}
+
+/* Styles for the table body cells */
+.table-style tbody td { 
+  padding: .8rem; 
+  font-size: 16px;
+  color: #444; 
+  background: #eee;
+  transition: 0.3s;
+}
+
+/* Styles for the table rows, except the last child - w3school*/
+.table-style tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+
+/* Styles for the update button */
+.update-btn{
+  width: 80px;
+  height:30px;
+  background-color: #0078D7;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover styles for the update button */
+.update-btn:hover{
+  font-size: 16px;
+  background-color: #005a9e;
+}
+
+/* Styles for the update button link */
+.update-btn a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles for the delete button */
+.delete-btn{
+  width: 80px;
+  height:30px;
+  background-color: rgb(224, 0, 0);
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover styles for the delete button */
+.delete-btn:hover{
+  font-size: 16px;
+  background-color: rgb(168, 1, 1);
+}
+
+
+.delete-btn a{
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,77 @@
+/* Styles for the result container */
+.result-container {
+  width: 400px;
+  margin: 100px auto;
+  background-color: #f3f3f3;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  padding: 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+/* Hover styles for the result container */
+.result-container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Styles for text inputs and select inputs */
+input[type="text"],
+select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover styles for the submit button */
+input[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* Styles for the employee result information section */
+#result-info {
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #121212;
+  background-color: #e2e2e2;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  padding: 20px;
+  border-radius: 25px;
+}
+
+#result-info p {
+  color: #121212;
+  font-weight: 400;
+}

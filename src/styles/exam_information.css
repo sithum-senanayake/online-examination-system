@@ -1,0 +1,94 @@
+/* Styles for the available exams container */
+.available-exams {
+  background-color: #fff;
+  padding: 15px 9%;
+  padding-bottom: 100px;
+  margin-top: 10px;
+}
+
+/* Styles for the heading */
+.available-exams .heading {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #181818;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  font-size: 40px;
+}
+
+/* Styles for the box container */
+.available-exams .box-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(270px, 1fr));
+  gap: 15px;
+}
+
+/* Styles for the boxes */
+.available-exams .box-container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  transition: 0.3s;
+}
+
+/* Styles for the box images */
+.available-exams .box-container .box img {
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+/* Styles for the box headings */
+.available-exams .box-container .box h3 {
+  color: #444;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.available-exams .box-container .box p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+  flex-grow: 1; /* Allow paragraph to expand and push the button to the bottom */
+}
+
+/* Styles for the box button */
+.available-exams .box-container .box .btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 8px 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Hover styles for the boxes */
+.available-exams .box-container .box:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+  transform: scale(1.03);
+}
+
+/* Hover styles for the box buttons */
+.available-exams .box-container .box .btn:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+}
+
+/* Responsive styles for the boxes */
+@media (max-width: 768px) {
+  .available-exams .box-container {
+    grid-template-columns: repeat(2, minmax(270px, 1fr)); /* Display two columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .available-exams .box-container {
+    grid-template-columns: repeat(1, minmax(270px, 1fr)); /* Display one column on even smaller screens */
+  }
+}

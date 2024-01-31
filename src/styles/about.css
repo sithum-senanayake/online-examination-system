@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* about us background styles */
+.about-us{
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),
+    url('../images/Background2.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: transitionIn 0.75s;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+/* image styles */
+.pic{
+  padding-top: 50px;
+  height: auto;
+  width:  450px;
+  transition: 0.3s;
+}
+
+.pic:hover{
+  transform: scale(1.03);
+}
+
+/* about container styles*/
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* about us text styles */
+.text{
+  width: 540px;
+}
+
+.text h2{
+  color: #fff;
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+
+.text h5{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+span{
+  color: orange;
+}
+
+.text p{
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+
+/* our team styles */
+/* container styles */
+.our-team{
+    background-color: #fff;
+    padding:15px 9%;
+    padding-bottom: 100px;
+    margin-top: 10px;
+}
+
+/* heading styles */
+.our-team .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#181818;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 40px;
+}
+
+/* grid control */
+.our-team .box-container{
+    display: grid;
+    gap:15px;
+}
+
+/* grid styles */
+.our-team .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+    transition: 0.3s;
+}
+
+/* grid animation */
+.our-team .box-container .box:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+} 
+
+/* grid text styles */
+.our-team .box-container .box h3{
+    color:#444;
+    font-size: 30px;
+    padding:10px 0;
+}
+
+.our-team .box-container .box p{
+    color:#777;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* grid button styles */
+.our-team .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* grid button animation */
+.our-team .box-container .box .btn:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+}
+
+/* Reset default margin and padding */
+  
+@media (max-width: 600px) {
+    .box {
+      width: 100%;
+      margin: 10px 0;
+    }
+}
+  

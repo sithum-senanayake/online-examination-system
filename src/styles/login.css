@@ -1,0 +1,86 @@
+/* Styles for the login container */
+.login-container {
+  width: 400px;
+  margin: 100px auto;
+  background-color: #f3f3f3;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* Hover styles for the login container */
+.login-container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Styles for email and password inputs */
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Hover styles for the submit button */
+input[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* Styles for the Create Account link */
+.create-account {
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Hover styles for the Create Account link */
+.create-account:hover {
+  color: gray;
+  font-size: 18px;
+}
+
+/* Styles for the error message */
+.error-msg {
+  margin: 10px 0;
+  display: block;
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+}

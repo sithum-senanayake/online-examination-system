@@ -1,0 +1,190 @@
+/* Styles for the heading */
+.heading{
+  text-align: center;
+  padding-top: 30px;
+  color:#181818;
+  text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  font-size: 40px;
+}
+
+/* Styles for the employee table */
+.employee-table{
+  width: 90%;
+  margin: 100px auto;
+  margin-top: 30px;
+  background-color: #f3f3f3;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* Hover styles for the employee table */
+.employee-table:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+}
+
+/* Styles for the "Add Exam" button */
+.add-exam-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 30px 31px;
+  padding: 10px 25px;
+  background-color: orange;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover styles for the "Add Exam" button */
+.add-exam-btn:hover{
+  background-color: white;
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  font-size: 20px;
+}
+
+/* Styles for the exam table */
+.exam-table{
+  width: 90%;
+  margin: 100px auto;
+  margin-top: 30px;
+  background-color: #f3f3f3;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Hover styles for the exam table */
+.exam-table:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+}
+
+/* Styles for the result table */
+.result-table{
+  width: 60%;
+  margin: 100px auto;
+  margin-top: 30px;
+  background-color: #f3f3f3;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Hover styles for the result table */
+.result-table:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+}
+
+/* Common styles for the tables */
+.table-style{
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #333; color: #fff;
+  text-rendering: optimizeLegibility;
+  border-radius: 5px; 
+}
+
+/* Styles for the table header */
+.table-style thead tr th { 
+  font-weight: 600; 
+}
+
+/* Styles for table header and table data */
+.table-style thead th, .table-style tbody td { 
+  padding: 10px; 
+  font-size: 16px;
+}
+
+
+.table-style tbody td { 
+  padding: .8rem; 
+  font-size: 16px;
+  color: #444; 
+  background: #eee;
+  transition: 0.3s;
+}
+
+/* Styles for alternating rows in the table body - w3school */
+.table-style tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+
+/* Styles for the update button */
+.update-btn{
+  width: 80px;
+  height:30px;
+  background-color: #0078D7;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover styles for the update button */
+.update-btn:hover{
+  font-size: 16px;
+  background-color: #005a9e;
+}
+
+/* Styles for the delete button */
+.delete-btn{
+  width: 80px;
+  height:30px;
+  background-color: rgb(224, 0, 0);
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover styles for the delete button */
+.delete-btn:hover{
+  font-size: 16px;
+  background-color: rgb(168, 1, 1);
+}
+
+
+.delete-btn a, .update-btn a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* responsive table - w3school*/
+@media screen and (max-width: 600px) {
+  .table-style caption { background-image: none; }
+  .table-style thead { display: none; }
+  .table-style tbody td { 
+    display: block; 
+    padding: .6rem; 
+  }
+  .table-style tbody tr td:first-child { 
+    background: #666; 
+    color: #fff; 
+  }
+  .table-style tbody td:before { 
+    content: attr(data-th); 
+    font-weight: bold;
+    display: inline-block;
+    width: 6rem;  
+  }
+}

@@ -32,10 +32,11 @@ Online Examination System for Employees developed by a group of undergraduate st
  - Choose a text editor such as Notepad++, Sublime Text 3 or visual studio code to edit the source code.
  - These text editors provide features specifically designed for programming.
 
-	Download links : 
-		- Notepad++          : https://notepad-plus-plus.org/downloads/
-		- Sublime Text       : https://www.sublimetext.com/3
-		- Visual Studio Code : https://code.visualstudio.com/download
+ ### `Download links` : 
+
+- Notepad++          : https://notepad-plus-plus.org/downloads/
+- Sublime Text       : https://www.sublimetext.com/3
+- Visual Studio Code : https://code.visualstudio.com/download
 
 ### Copy the "OnlineExaminationSystemForEmployees" folder.
 

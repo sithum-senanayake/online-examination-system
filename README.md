@@ -16,7 +16,7 @@ Online Examination System for Employees developed by a group of undergraduate st
   - Email   : admin@gmail.com
   - Password: any password will work
 
-### `Note: Ensure that you have properly configured and started XAMPP before running the system.`
+### `NOTE: Ensure that you have properly configured and started XAMPP before running the system.`
 
 ## Instructions : 
 

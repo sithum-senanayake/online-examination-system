@@ -2,20 +2,6 @@
 
 Online Examination System for Employees developed by a group of undergraduate students at SLIIT (Sri Lanka Institute of Information Technology) as the final project for their Year 1 Semester 2 'Internet & Web Technologies' module 2022.
 
-## Sample Login credentials:
-
-- Employee:
-  - Email   : employee@gmail.com
-  - Password: User@123
-
-- Exam Admin:
-  - Email   : examadmin@gmail.com
-  - Password: User@123
-
-- Admin:
-  - Email   : admin@gmail.com
-  - Password: any password will work
-
 ### `NOTE: Ensure that you have properly configured and started XAMPP before running the system.`
 
 ## Instructions : 
@@ -65,3 +51,17 @@ Online Examination System for Employees developed by a group of undergraduate st
  - Finally, open your web browser and access the "OnlineExaminationSystemForEmployees".
  - Enter the following URL to access: http://localhost/OnlineExaminationSystemForEmployees/src/login.php
  - This will run the script and load the system in your browser.
+
+## Sample Login credentials:
+
+- Employee:
+  - Email   : employee@gmail.com
+  - Password: User@123
+
+- Exam Admin:
+  - Email   : examadmin@gmail.com
+  - Password: User@123
+
+- Admin:
+  - Email   : admin@gmail.com
+  - Password: any password will work

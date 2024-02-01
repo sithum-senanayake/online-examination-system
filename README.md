@@ -48,7 +48,8 @@ Online Examination System for Employees developed by a group of undergraduate st
 
 ### `Run the script`: 
 
- - Finally, open your web browser and access the "OnlineExaminationSystemForEmployees".
+ - Rename the project folder into "OnlineExaminationSystemForEmployees"
+ - Finally, now you can open your web browser and access the "OnlineExaminationSystemForEmployees".
  - Enter the following URL to access: http://localhost/OnlineExaminationSystemForEmployees/src/login.php
  - This will run the script and load the system in your browser.
 
